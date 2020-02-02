@@ -7,6 +7,12 @@ React course given to check point in February 2020
 The course is available in video in this URL:
 https://www.youtube.com/playlist?list=PLnHa2cF4cNDtfkYKO6v069GUPYrJtijwc
 
+## Whatsapp Group
+
+You also have access to a whatsapp group where i publish my videos and answer React questions
+Link to the group:
+https://chat.whatsapp.com/Eqll3DtpQG27SAET5NcmtB
+
 ## Lessons
 
 ### Some tools we will need
