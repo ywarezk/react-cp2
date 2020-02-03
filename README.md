@@ -7,6 +7,10 @@ React course given to check point in February 2020
 The course is available in video in this URL:
 https://www.youtube.com/playlist?list=PLnHa2cF4cNDtfkYKO6v069GUPYrJtijwc
 
+I'm uploading new react material every week so to keep updated subscribe to my user at:
+
+https://www.youtube.com/user/ywarezk
+
 ## Whatsapp Group
 
 You also have access to a whatsapp group where i publish my videos and answer React questions
@@ -115,4 +119,50 @@ We will cover the following topics:
 - custom hooks
 - Formik
 
+### Forms EX.
 
+In this ex you will understand how JWT and authentication is working in a spa.
+An important ex. that will escort you probably during your real life development.
+The ex and solution is in this video:
+
+https://youtu.be/8BtdI3-ateM
+
+### Redux
+
+In this lesson we will talk about Redux library which will help us arrange the data in our app.
+The lesson is available in the following video:
+
+https://youtu.be/7pZmBah66zE
+
+- The data problem we are trying to solve
+- What is Redux
+- Redux Architecture
+- Store
+- Reducers
+- Actions
+- state best practices
+- combineReducers
+- Redux dev tools
+- middlewares
+- redux-thunk
+
+### Redux EX.
+
+Redux is not an easy topic to chew so in this lesson we will practice how to work with Redux.
+We will create a simple chat app.
+We will have to arrange data we get from the server in a redux state and understand how to divide our components to smart containers which connect to the state, and simple components which are getting props.
+The solution for this EX. is available in the following video:
+
+https://youtu.be/3PKv9gG68Pg
+
+### Routing in React
+
+Our SPA will be divided to different screens, where each screen resides in a different url.
+In this lesson we will learn how to arrange the screens of our app, what is the best practices working with URL and how to pass data with the url.
+The lesson is available in the following video:
+
+https://youtu.be/TR5Dx8_cJcA
+
+We will cover the following:
+
+- 
