@@ -103,6 +103,9 @@ In this EX. you will create a Todo List application.
 The solution for the Ex. is avilable in the following video:
 https://youtu.be/8vgzC3CI510
 
+- http://nztodo.herokuapp.com/api/task/?format=json
+- http://nztodo.herokuapp.com/api/graphql
+
 ### Forms and some React design patterns
 
 In this lesson we will learn how to deal with forms in React application.
