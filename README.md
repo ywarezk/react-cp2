@@ -110,8 +110,12 @@ https://youtu.be/8vgzC3CI510
 To send the request:
 
 ```
-let proxyUrl = 'https://cors-anywhere.herokuapp.com/'
-fetch(proxyUrl + 'https://nztodo.herokuapp.com/api/task/?format=json').then(...);
+// fetch is returning Promise<Response>
+fetch('https://nztodo.herokuapp.com/api/task/?format=json')
+    .then((response) => {
+        // from response we want the data from the server
+        return response.json();
+    });
 ```
 
 ### Forms and some React design patterns
