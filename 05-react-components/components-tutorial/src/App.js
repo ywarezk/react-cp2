@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import TodoList from "./components/TodoList/TodoList"
 
 // import HelloFunc from "./components/Hello/HelloFunc";
 // import HelloClass from "./components/Hello/HelloClass"
@@ -21,7 +22,7 @@ function App() {
         isCountdownClassVisible && <CountdownFunc initialCountdown={5} destroyCb={setIsCountdownVisible} />
       }
       
-
+      <TodoList />
       <h1>Class component</h1>
       {/* <HelloClass msg="hello class from parent" /> */}
 

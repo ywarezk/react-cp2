@@ -106,6 +106,14 @@ https://youtu.be/8vgzC3CI510
 - http://nztodo.herokuapp.com/api/task/?format=json
 - http://nztodo.herokuapp.com/api/graphql
 
+
+To send the request:
+
+```
+let proxyUrl = 'https://cors-anywhere.herokuapp.com/'
+fetch(proxyUrl + 'https://nztodo.herokuapp.com/api/task/?format=json').then(...);
+```
+
 ### Forms and some React design patterns
 
 In this lesson we will learn how to deal with forms in React application.
