@@ -157,11 +157,28 @@ https://youtu.be/8BtdI3-ateM
 
 how to do send the request
 ```
+// Register
 fetch("https://academeez-login-ex.herokuapp.com/api/users/register", {
     method: "POST",
     body: JSON.stringify(formValues),
     headers: {
         "Content-Type": "application/json"
+    }
+})
+
+// Login
+fetch("https://academeez-login-ex.herokuapp.com/api/users/login", {
+    method: "POST",
+    body: JSON.stringify(formValues),
+    headers: {
+        "Content-Type": "application/json"
+    }
+})
+
+// Todo
+fetch("https://academeez-login-ex.herokuapp.com/api/tasks", {        
+    headers: {
+        "Authorization": "Bearer <token>"
     }
 })
 ```
