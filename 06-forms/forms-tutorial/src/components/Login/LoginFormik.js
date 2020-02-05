@@ -21,7 +21,7 @@ export default () => {
     return (
 
         <Formik
-            initialValues={ {} }
+            initialValues={ {email: '', password: ''} }
             onSubmit={handleLogin}
             validationSchema={loginSchema}
         >
