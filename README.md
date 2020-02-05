@@ -155,6 +155,17 @@ https://youtu.be/8BtdI3-ateM
       Authorization: Bearer <JWT>
     }
 
+how to do send the request
+```
+fetch("https://academeez-login-ex.herokuapp.com/api/users/register", {
+    method: "POST",
+    body: JSON.stringify(formValues),
+    headers: {
+        "Content-Type": "application/json"
+    }
+})
+```
+
 ### HOC, Render Props, Custom Hooks
 
 In this EX we will practice how to use the composition patterns we learned: HOC, Render Props
