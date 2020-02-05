@@ -5,6 +5,9 @@ import LoginFunc from "./components/Login/Login";
 import LoginClass from "./components/Login/LoginClass";
 import LoginClassControlled from "./components/Login/LoginClassControlled";
 import LoginControlledFunc from "./components/Login/LoginControlled";
+import SuperContact from "./components/Contact/Contact";
+import LoginControlledCustomHooks from "./components/Login/LoginControlledCustomHooks";
+import LoginFormik from "./components/Login/LoginFormik";
 
 function App() {
   return (
@@ -15,10 +18,13 @@ function App() {
             <h1>
               Function components
             </h1>
-            <LoginFunc />
+            {/* <LoginFunc />
 
             <LoginControlledFunc />
 
+            <LoginControlledCustomHooks /> */}
+
+            <LoginFormik />
           </div>
           <div className="col-6">
             <h1>
@@ -28,6 +34,8 @@ function App() {
 
             
             <LoginClassControlled />
+
+            <SuperContact title="Contact Form" parentAttributeToTakeHere={42} />
           </div>
 
         </div>

@@ -142,6 +142,19 @@ The ex and solution is in this video:
 
 https://youtu.be/8BtdI3-ateM
 
+- https://academeez-login-ex.herokuapp.com
+- Login: /api/users/login
+  - POST
+  - {email: '...', password: '...'}
+- Register: /api/users/register
+  - POST
+  - {email: '...', password: '...', firstName: '', lastName: ''}
+- Todo: /api/tasks
+  - GET
+  - headers: {
+      Authorization: Bearer <JWT>
+    }
+
 ### Redux
 
 In this lesson we will talk about Redux library which will help us arrange the data in our app.
