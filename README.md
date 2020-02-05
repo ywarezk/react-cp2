@@ -155,6 +155,37 @@ https://youtu.be/8BtdI3-ateM
       Authorization: Bearer <JWT>
     }
 
+### HOC, Render Props, Custom Hooks
+
+In this EX we will practice how to use the composition patterns we learned: HOC, Render Props
+and also the Custom Hook pattern to solve repeating code. 
+You will create 3 components that display log messages and a button in each one to create a new log.
+The ex is available in this Video:
+
+https://youtu.be/-tmLZX6scnY
+
+- your server is located in the following url: https://nztodo.herokuapp.com/api/task/?format=json
+- you can send a post request to create a new log
+- you can send a get request with the group param to query the list for group
+  - https://nztodo.herokuapp.com/api/task/?format=json&group=45
+- implement HOC called 
+```
+const EnhancedComponent = withLogger(group)(RegularComponent)
+```
+  - This HOC will send the child component in the props the list of logs from the server
+  - the HOC will also send a function to create a new log
+
+- implement Render Props that will get the group as prop and send in the render prop a function with the list of logs and the create function.
+
+```
+<Logger group={45} render={(logs, createLog) => ...}>
+```
+
+- implement custom hook function that will send the logs and the create log function.
+```
+const [logs, createLog] = useLogs(45)
+```
+
 ### Redux
 
 In this lesson we will talk about Redux library which will help us arrange the data in our app.
